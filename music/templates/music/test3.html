@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+                    {% load staticfiles %}
+
+	<title>Login V17</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+<!--===============================================================================================-->
+	<link rel="icon" type="image/png" href="{% static 'music/login/images/icons/favicon.ico' %}"/>
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="{% static 'music/login/vendor/bootstrap/css/bootstrap.min.css' %}">
+	<link rel="stylesheet" type="text/css" href="{% static 'music/login/fonts/font-awesome-4.7.0' %}">
+	<link rel="stylesheet" type="text/css" href="{% static 'music/login/fonts/Linearicons-Free-v1.0.0' %}">
+	<link rel="stylesheet" type="text/css" href="{% static 'music/login/vendor/animate/animate.css' %}">
+	<link rel="stylesheet" type="text/css" href="{% static 'music/login/vendor/css-hamburgers/hamburgers.min.css' %}">
+	<link rel="stylesheet" type="text/css" href="{% static 'music/login/vendor/animsition/css/animsition.min.css' %}">
+	<link rel="stylesheet" type="text/css" href="{% static 'music/login/vendor/select2/select2.min.css' %}">
+	<link rel="stylesheet" type="text/css" href="{% static 'music/login/css/util.css' %}">
+	<link rel="stylesheet" type="text/css" href="{% static 'music/login/css/main.css' %}">
+<!--===============================================================================================-->
+{#	<link rel="stylesheet" type="text/css" href="fonts/font-awesome-4.7.0/css/font-awesome.min.css">#}
+{#<!--===============================================================================================-->#}
+{#	<link rel="stylesheet" type="text/css" href="fonts/Linearicons-Free-v1.0.0/icon-font.min.css">#}
+{#<!--===============================================================================================-->#}
+{#	<link rel="stylesheet" type="text/css" href="vendor/animate/animate.css">#}
+{#<!--===============================================================================================-->	#}
+{#	<link rel="stylesheet" type="text/css" href="vendor/css-hamburgers/hamburgers.min.css">#}
+{#<!--===============================================================================================-->#}
+{#	<link rel="stylesheet" type="text/css" href="vendor/animsition/css/animsition.min.css">#}
+{#<!--===============================================================================================-->#}
+{#	<link rel="stylesheet" type="text/css" href="vendor/select2/select2.min.css">#}
+{#<!--===============================================================================================-->	#}
+{#	<link rel="stylesheet" type="text/css" href="vendor/daterangepicker/daterangepicker.css">#}
+{#<!--===============================================================================================-->#}
+{#	<link rel="stylesheet" type="text/css" href="css/util.css">#}
+{#	<link rel="stylesheet" type="text/css" href="css/main.css">#}
+<!--===============================================================================================-->
+
+    		<link href="https://fonts.googleapis.com/css?family=Poppins:100,200,400,300,500,600,700" rel="stylesheet">
+			<!--
+			CSS
+			============================================= -->
+			<link rel="stylesheet" href="{% static 'music/mainpage/css/linearicons.css' %}">
+			<link rel="stylesheet" href="{% static 'music/mainpage/css/owl.carousel.css' %}">
+			<link rel="stylesheet" href="{% static 'music/mainpage/css/font-awesome.min.css' %}">
+			<link rel="stylesheet" href="{% static 'music/mainpage/css/magnific-popup.css' %}">
+			<link rel="stylesheet" href="{% static 'music/mainpage/css/bootstrap.css' %}">
+			<link rel="stylesheet" href="{% static 'music/mainpage/css/main.css' %}">
+
+</head>
+<body>
+                    <!-- Start Header Area -->
+                    <header class="default-header">
+                        <div class="container">
+                            <div class="header-wrap">
+                                <div class="header-top d-flex justify-content-between align-items-center">
+                                    <div class="logo">
+                                        <a href="{% url 'music:index' %}"><img src="{% static 'music/mainpage/img/logo.png' %}"
+                                                                               alt=""></a>
+                                    </div>
+                                    <div class="main-menubar d-flex align-items-center">
+                                        <nav class="hide">
+                                            <a href="#home">Home</a>
+                                            <a href="#feature">Feature</a>
+                                            <a href="#about">About</a>
+                                            <a href="#contact">Contact</a>
+                                            <a href="#contact">Log In</a>
+                                            <a href="#contact">Register</a>
+                                        </nav>
+                                        <div class="menu-bar"><span class="lnr lnr-menu"></span></div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </header>
+                    <!-- End Header Area -->
+	<div class="limiter">
+		<div class="container-login100">
+			<div class="wrap-login100">
+				<form class="login100-form validate-form">
+					<span class="login100-form-title p-b-34">
+						Account Login
+					</span>
+
+					<div class="wrap-input100 rs1-wrap-input100 validate-input m-b-20" data-validate="Type user name">
+						<input id="first-name" class="input100" type="text" name="username" placeholder="User name">
+						<span class="focus-input100"></span>
+					</div>
+					<div class="wrap-input100 rs2-wrap-input100 validate-input m-b-20" data-validate="Type password">
+						<input class="input100" type="password" name="pass" placeholder="Password">
+						<span class="focus-input100"></span>
+					</div>
+
+					<div class="container-login100-form-btn">
+						<button class="login100-form-btn">
+							Sign in
+						</button>
+					</div>
+
+					<div class="w-full text-center p-t-27 p-b-239">
+						<span class="txt1">
+							Forgot
+						</span>
+
+						<a href="#" class="txt2">
+							User name / password?
+						</a>
+					</div>
+
+					<div class="w-full text-center">
+						<a href="#" class="txt3">
+							Sign Up
+						</a>
+					</div>
+				</form>
+
+				<div class="login100-more" style="background-image: url({% static 'music/login/images/bg-01.jpg' %});"></div>
+			</div>
+		</div>
+	</div>
+
+
+
+	<div id="dropDownSelect1"></div>
+
+<!--===============================================================================================-->
+	<script src="{% static 'music/login/vendor/jquery/jquery-3.2.1.min.js' %}"></script>
+	<script src="{% static 'music/login/vendor/animsition/js/animsition.min.js' %}"></script>
+	<script src="{% static 'music/login/vendor/bootstrap/js/popper.js' %}"></script>
+	<script src="{% static 'music/login/vendor/bootstrap/js/bootstrap.min.js' %}"></script>
+	<script src="{% static 'music/login/vendor/select2/select2.min.css' %}"></script>
+	<script src="{% static 'music/login/vendor/daterangepicker/moment.min.js' %}"></script>
+	<script src="{% static 'music/login/vendor/daterangepicker/daterangepicker.js' %}"></script>
+	<script src="{% static 'music/login/vendor/countdowntime/countdowntime.js' %}"></script>
+	<script src="{% static 'music/login/js/main.js' %}"></script>
+{#	<script src="vendor/jquery/jquery-3.2.1.min.js"></script>#}
+{#<!--===============================================================================================-->#}
+{#	<script src="vendor/animsition/js/animsition.min.js"></script>#}
+{#<!--===============================================================================================-->#}
+{#	<script src="vendor/bootstrap/js/popper.js"></script>#}
+{#	<script src="vendor/bootstrap/js/bootstrap.min.js"></script>#}
+{#<!--===============================================================================================-->#}
+{#	<script src="vendor/select2/select2.min.js"></script>#}
+	<script>
+		$(".selection-2").select2({
+			minimumResultsForSearch: 20,
+			dropdownParent: $('#dropDownSelect1')
+		});
+	</script>
+<!--===============================================================================================-->
+{#	<script src="vendor/daterangepicker/moment.min.js"></script>#}
+{#	<script src="vendor/daterangepicker/daterangepicker.js"></script>#}
+{#<!--===============================================================================================-->#}
+{#	<script src="vendor/countdowntime/countdowntime.js"></script>#}
+{#<!--===============================================================================================-->#}
+{#	<script src="js/main.js"></script>#}
+			<script src="{% static 'music/mainpage/js/vendor/jquery-2.2.4.min.js' %}"></script>
+			<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+            <script src="{% static 'music/mainpage/js/vendor/bootstrap.min.js' %}"></script>
+            <script src="{% static 'music/mainpage/js/owl.carousel.min.js' %}"></script>
+            <script src="{% static 'music/mainpage/js/jquery.sticky.js' %}"></script>
+            <script src="{% static 'music/mainpage/js/parallax.min.js' %}"></script>
+            <script src="{% static 'music/mainpage/js/jquery.magnific-popup.min.js' %}"></script>
+            <script src="{% static 'music/mainpage/js/main.js' %}"></script>
+</body>
+</html>
