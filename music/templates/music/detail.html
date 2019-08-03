@@ -30,6 +30,7 @@
             <ul class="nav nav-pills" style="margin-bottom: 10px;">
                 <li role="presentation" class="active"><a href="{% url 'music:detail' album.id %}">View All</a></li>
                 <li role="presentation"><a href="{% url 'music:create_song' album.id %}">Add New Song</a></li>
+                <li role="presentation" style="float: right"><a href="{% url 'music:p_album' album.id %}"> Make Public</a>  </li>
             </ul>
 
             <div class="panel panel-default">

@@ -31,9 +31,8 @@
         <!-- Items -->
         <div class="collapse navbar-collapse" id="topNavBar">
             <ul class="nav navbar-nav navbar-right">
-                <li class="{% block login_active %}{% endblock %}"><a class="navbar-brand"  href="{% url 'music:login_user' %}">Log In</a></li>
-                <li><a></a></li>
-                <li class="{% block register_active %}{% endblock %}"><a class="navbar-brand" href="{% url 'music:register' %}">Register</a></li>
+                <li class="{% block login_active %}{% endblock %}"><a   href="{% url 'music:login_user' %}">Log In</a></li>
+                <li class="{% block register_active %}{% endblock %}"><a  href="{% url 'music:register' %}">Register</a></li>
             </ul>
         </div>
 

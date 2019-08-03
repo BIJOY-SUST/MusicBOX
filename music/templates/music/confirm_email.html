@@ -1,6 +1,6 @@
 {% autoescape off %}
     Hi {{ user.username }},
-    Thanks for your registration in শুন্যতা.
+    Thanks for your registration in MusicBox.
     Please click on the link below to confirm your registration,
     http://{{ domain }}{% url 'music:activate' uidb64=uid token=token %}
 {% endautoescape %}
