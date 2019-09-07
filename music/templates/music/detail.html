@@ -1,8 +1,23 @@
 {% extends 'music/base.html' %}
 {% block title %}{{ album }}{% endblock %}
 {% block albums_active %}active{% endblock %}
+{% load staticfiles %}
 
 {% block body %}
+
+<style>
+    #playlist{
+        list-style: none;
+    }
+    #playlist td{
+        color: black;
+        text-decoration: none;
+    }
+    #playlist .current-song {
+        color: blue;
+    }
+</style>
+
 <div class="container-fluid songs-container">
 
     <div class="row">
@@ -35,37 +50,43 @@
 
             <div class="panel panel-default">
                 <div class="panel-body">
-
-                    <h3>All Songs</h3>
-
+                    <table>
+                        <tr>
+                            <th style="font-size: 20px">All songs</th>
+                            <th style="position: static;
+                                       padding-left: 255px;
+                                       text-align: center;"
+                            >
+                            <audio controls id="audioPlayer">
+                                <source src="" type="audio/ogg">
+                                <source src="" type="audio/mpeg">
+                                Your browser does not support the audio element.
+                            </audio>
+                            </th>
+                        </tr>
+                    </table>
                     {% if error_message %}
                         <p><strong>{{ error_message }}</strong></p>
                     {% endif %}
-
                     <table class="table">
                         <thead>
-                        <tr>
-                            <th>Title</th>
-                            <th>Audio File</th>
-                            <th>Favorite</th>
-                            <th>Actions</th>
-                        </tr>
+                            <tr>
+                                <th>Title</th>
+                                <th>Audio File</th>
+                                <th>Favorite</th>
+                                <th>Actions</th>
+                            </tr>
                         </thead>
                         <tbody>
                         {% for song in album.song_set.all %}
-                            <tr>
-                                <td>{{ song.song_title }}</td>
-                                <td>
-                                    <audio controls>
-                                        <source src="{{ song.audio_file.url }}" type="audio/ogg">
-                                        <source src="{{ song.audio_file.url }}" type="audio/mpeg">
-                                        Your browser does not support the audio element.
-                                    </audio>
-{#                                    <a target="_blank" href="{{ song.audio_file.url }}">#}
-{#                                        <button type="button" class="btn btn-success btn-xs">#}
-{#                                            <span class="glyphicon glyphicon-play"></span>&nbsp; Play#}
-{#                                        </button>#}
-{#                                    </a>#}
+                            <tr id="playlist">
+                                <td >{{ song.song_title }}</td>
+                                <td ><a href="{{ song.audio_file.url }}"><img style="width: 35px" src="{% static 'music/images/play.png' %}"></a>
+{#                                    <audio controls>#}
+{#                                        <source src="{{ song.audio_file.url }}" type="audio/ogg">#}
+{#                                        <source src="{{ song.audio_file.url }}" type="audio/mpeg">#}
+{#                                        Your browser does not support the audio element.#}
+{#                                    </audio>#}
                                 </td>
                                 <td>
                                     <a href="{% url 'music:favorite' song.id %}" class="btn-favorite"><span class="glyphicon glyphicon-star {% if song.is_favorite %}active{% endif %}"></span></a>
@@ -81,6 +102,12 @@
                                 </td>
                             </tr>
                         {% endfor %}
+                        <script src="https://code.jquery.com/jquery-2.2.0.js"></script>
+                        <script src="{% static 'music/js/audioplayer.js' %}"></script>
+                        <script>
+                            // loads the audio player
+                            audioPlayer();
+                        </script>
                         </tbody>
                     </table>
 

@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="30ebf279-e1c5-4e52-a57d-fd5904f0155a" name="Default Changelist" comment="" />
+    <list default="true" id="30ebf279-e1c5-4e52-a57d-fd5904f0155a" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/music/templates/music/detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/music/templates/music/detail.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/music/templates/music/unused/test.html" beforeDir="false" afterPath="$PROJECT_DIR$/music/templates/music/unused/test.html" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,6 +19,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTML File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -26,16 +31,18 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/music/templates/music" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/music/static/music/images" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/music/templates/music" />
-      <recent name="$PROJECT_DIR$/music/static/music/mainpage/img" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/music/templates/music/unused" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/music/static/music/images" />
+      <recent name="$PROJECT_DIR$/music/static/music/song" />
+      <recent name="$PROJECT_DIR$/music/templates/music" />
+      <recent name="$PROJECT_DIR$/music/static/music/mainpage/img" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -86,7 +93,12 @@
       <option name="presentableId" value="Default" />
       <updated>1564746681433</updated>
       <workItem from="1564746686970" duration="18912000" />
-      <workItem from="1564811885135" duration="9683000" />
+      <workItem from="1564811885135" duration="10305000" />
+      <workItem from="1564849018660" duration="197000" />
+      <workItem from="1566224396073" duration="657000" />
+      <workItem from="1567835851765" duration="373000" />
+      <workItem from="1567849495123" duration="625000" />
+      <workItem from="1567851116520" duration="23512000" />
     </task>
     <servers />
   </component>
