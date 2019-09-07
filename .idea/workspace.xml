@@ -3,8 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="30ebf279-e1c5-4e52-a57d-fd5904f0155a" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/music/templates/music/detail.html" beforeDir="false" afterPath="$PROJECT_DIR$/music/templates/music/detail.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/music/templates/music/unused/test.html" beforeDir="false" afterPath="$PROJECT_DIR$/music/templates/music/unused/test.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/music/templates/music/detail_public.html" beforeDir="false" afterPath="$PROJECT_DIR$/music/templates/music/detail_public.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/music/templates/music/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/music/templates/music/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/music/templates/music/songs.html" beforeDir="false" afterPath="$PROJECT_DIR$/music/templates/music/songs.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -98,7 +99,7 @@
       <workItem from="1566224396073" duration="657000" />
       <workItem from="1567835851765" duration="373000" />
       <workItem from="1567849495123" duration="625000" />
-      <workItem from="1567851116520" duration="23512000" />
+      <workItem from="1567851116520" duration="24391000" />
     </task>
     <servers />
   </component>
