@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="30ebf279-e1c5-4e52-a57d-fd5904f0155a" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/music/static/music/login/vendor/bootstrap/css/bootstrap-grid.css" beforeDir="false" afterPath="$PROJECT_DIR$/music/static/music/login/vendor/bootstrap/css/bootstrap-grid.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/music/static/music/mainpage/css/magnific-popup.css" beforeDir="false" afterPath="$PROJECT_DIR$/music/static/music/mainpage/css/magnific-popup.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/music/static/music/mainpage/css/owl.carousel.css" beforeDir="false" afterPath="$PROJECT_DIR$/music/static/music/mainpage/css/owl.carousel.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/music/static/music/style2.css" beforeDir="false" afterPath="$PROJECT_DIR$/music/static/music/style2.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/music/static/music/style3.css" beforeDir="false" afterPath="$PROJECT_DIR$/music/static/music/style3.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/box/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/box/settings.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -101,7 +96,7 @@
       <workItem from="1566224396073" duration="657000" />
       <workItem from="1567835851765" duration="373000" />
       <workItem from="1567849495123" duration="625000" />
-      <workItem from="1567851116520" duration="27923000" />
+      <workItem from="1567851116520" duration="28541000" />
     </task>
     <servers />
   </component>

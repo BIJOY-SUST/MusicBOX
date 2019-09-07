@@ -79,8 +79,7 @@ WSGI_APPLICATION = 'box.wsgi.application'
 #Email verification
 EMAIL_USE_TLS = True
 EMAIL_HOST = 'smtp.gmail.com'
-EMAIL_HOST_USER = 'bijoysust.system@gmail.com'
-EMAIL_HOST_PASSWORD = 'smc.bijoyadmin'
+
 EMAIL_PORT = 587
 
 # Database
@@ -93,9 +92,7 @@ DATABASES = {
     # }
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'database_music',
-        'USER': 'bijoy',
-        'PASSWORD': 'bijoy_sust',
+
         'HOST': 'localhost',
         'PORT': '3306'
     }
