@@ -56,14 +56,14 @@
   cursor: progress; }
 
 .mfp-zoom-out-cur, .mfp-zoom-out-cur .mfp-image-holder .mfp-close {
-  cursor: -moz-zoom-out;
-  cursor: -webkit-zoom-out;
+  /*cursor: -moz-zoom-out;*/
+  /*cursor: -webkit-zoom-out;*/
   cursor: zoom-out; }
 
 .mfp-zoom {
   cursor: pointer;
-  cursor: -webkit-zoom-in;
-  cursor: -moz-zoom-in;
+  /*cursor: -webkit-zoom-in;*/
+  /*cursor: -moz-zoom-in;*/
   cursor: zoom-in; }
 
 .mfp-auto-cursor .mfp-content {

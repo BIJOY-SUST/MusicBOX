@@ -1,5 +1,5 @@
 @-ms-viewport {
-  width: device-width;
+  /*width: device-width;*/
 }
 
 html {
@@ -786,7 +786,7 @@ html {
 }
 
 .justify-content-around {
-  -ms-flex-pack: distribute !important;
+  -ms-flex-pack: center;
       justify-content: space-around !important;
 }
 
@@ -921,7 +921,7 @@ html {
         justify-content: space-between !important;
   }
   .justify-content-sm-around {
-    -ms-flex-pack: distribute !important;
+    -ms-flex-pack: center;
         justify-content: space-around !important;
   }
   .align-items-sm-start {
@@ -1040,7 +1040,7 @@ html {
         justify-content: space-between !important;
   }
   .justify-content-md-around {
-    -ms-flex-pack: distribute !important;
+    -ms-flex-pack: center;
         justify-content: space-around !important;
   }
   .align-items-md-start {
@@ -1159,7 +1159,7 @@ html {
         justify-content: space-between !important;
   }
   .justify-content-lg-around {
-    -ms-flex-pack: distribute !important;
+    -ms-flex-pack: center;
         justify-content: space-around !important;
   }
   .align-items-lg-start {
@@ -1278,7 +1278,7 @@ html {
         justify-content: space-between !important;
   }
   .justify-content-xl-around {
-    -ms-flex-pack: distribute !important;
+    -ms-flex-pack: center;
         justify-content: space-around !important;
   }
   .align-items-xl-start {
